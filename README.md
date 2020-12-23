@@ -12,6 +12,10 @@
 
 Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
 
+[What is HTML?](#what-is-html)  
+[Getting started](#getting-started)  
+
+
 ## What is HTML?
 
 HTML stands for HyperText Markup Language. It's the structure of a web page and it defines what the user sees. By default HTML is ugly. To style it we use CSS (Cascading Style Sheet).
