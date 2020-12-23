@@ -12,8 +12,26 @@
 
 Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
 
+Table of content:
+
 [What is HTML?](#what-is-html)  
 [Getting started](#getting-started)  
+[Inline-level Vs Block-level elements](#inline-level-vs-block-level-elements)  
+[Headings](#headings)  
+[Paragraphs](#paragraphs)  
+[Divs & Span](#divs-and-span)  
+[hr](#hr)  
+[Attributes](#attributes)  
+[img](#img)  
+[Anchor](#anchor)  
+[id attribute](#id-attributes)  
+[Lists](#lists)  
+[Tables](#tables)  
+[Form](#form)  
+[Buttons](#buttons)  
+[General guidelines](#general-guidelines)  
+[Comments](#comments)  
+[Style](#style)  
 
 
 ## What is HTML?
