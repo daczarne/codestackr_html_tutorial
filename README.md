@@ -1,6 +1,8 @@
 # codeSTACKr's HTML tutorial
 
 
+Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
+
 ![archived](https://img.shields.io/badge/lifecycle-archived-red.svg)
 
 ![github repo size](https://img.shields.io/github/repo-size/daczarne/html_tutorial_codestackr)
@@ -9,8 +11,6 @@
 ![github languages](https://img.shields.io/github/languages/count/daczarne/html_tutorial_codestackr)
 ![top language](https://img.shields.io/github/languages/top/daczarne/html_tutorial_codestackr)
 
-
-Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
 
 Table of content:
 
