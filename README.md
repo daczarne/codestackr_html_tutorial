@@ -1,6 +1,6 @@
 # codeSTACKr's HTML tutorial
 
-codeSTACKr's HTML tutorial
+Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
 
 ## What is HTML?
 
