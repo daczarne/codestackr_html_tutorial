@@ -91,3 +91,61 @@ Anchor tags are inline. They can be placed in any part of the webpage. We can ev
 We can add an `id` attribute to any tag. This creates a bookmark, a unique identifier of that particular tag. This bookmarks can be passed to the `href` attribute of an `<a>` tag like so: `<a href="#bookmark">` (note that there's no `target` attribute set). When the user clicks on this anchor, the browser will move the page to where the bookmark is.
 
 ## Lists
+
+There are two types of lists. *Unordered* lists will be rendered as bullet points. *Ordered* list will be rendered as either numerals or romans. Use the `<ul>` tag to make an unordered list, or the `<ol>` to make an ordered list.
+
+`<ol>`s can take a `type` attribute. This will change the numerals:
+
+- `type="1"`: numeric
+
+- `type="A"`: capital letters
+
+- `type="I"`: capital romans
+
+- `type="a"`: lowercase letters
+
+- `type="i"`: lowercase romans
+
+`<ol>` tags can also take a `start` attribute which will define the number at which they start. For example, `start="25"` will make the list start at number 25 and add from there.
+
+Inside the list tags we place list items by using the `<li>` tags. Sub lists can be added by nesting `<ul>` or `<ol>` elements inside an `<li>` element.
+
+Lists are usually used to make navbars in webpages (with the help of some CSS).
+
+## Tables
+
+We declare table elements with the `<table>` tag. We use them the include tabluar data, not to make layouts. To build a table we need to define two importante sections: head and body. The head will be declared within the `<thead></thead>` tags, and the body within `<tbody></tbody>`. Inside each of them we'll use the `<tr></tr>` tag to declare each line. Finanlly, the head will take table headings tags, `<th></th>`. Inside them we'll put the values that will be displayed at the column headers of the table. Other rows will use `<td></td>` tags that will contain the table data (the value for each cell).
+
+![](img/table-1.png)
+
+When declaring `<th>` tags we can use the `colspan` attribute to specify the number of columns that the header should span. Keep in mind that the number of cells that you'll need to create is equal to the sum of all colspans (by default, `colspan="1"` so the number of `<td>`s is equal to the number of `<th>`s).
+
+![](img/table-2.png)
+
+Likewise, we can set the `rowspan` attribute to specify the number of rows that a value should take up. This is used when creating horizontal tables. Table values will still take 1 cell each.
+
+![](img/table-3.png)
+
+Something that can be added to any table is a caption. We do so by adding a `<caption></caption>` tag between the `<table>` and `<thead>` tags. The caption will be added on top of the table.
+
+## Form
+
+We can build forms that will submit data to a server with just HTML. To do so we use the `<form>` element. This element takes an `action` attributes that specifies where the form is going to submit the data to. 
+
+Inside the `<form>` tag we'll use the `<fieldset>` tag to group related elements within the form (it will draw a box around them). Inside the `<fieldset>` tag we use the `<legend>` tag to declare the title of that forms section.
+
+After that we use the `<input>` tag to generate input fields for the user to fill out. The `type` attribute controls the type of input. For example, `type="text"` makes a text box where the user can type. `<input>` tags also need a `name` attribute which will be sent to the server. The server will use this name to figure out what the input submited represents. We can use the `value` attribute to specify what will be shown in the box. Since we usually won't know the value, we can leave it blank `value=""` or skip it altogether. If we set the `placeholder` attribute, the input field will show this value until the user start typing. This is used to help the user understand what their input should be. It should contain a description or example.
+
+To add radio buttons we set the `input="radio"`. All radio buttons of the same group must have the same `name` attribute. The user can only select one of the buttons in a group.
+
+Another type of input is the `type="checkbox"`. Like radio buttons, check boxes can be grouped together using the `name` attribute but, unlike radio buttons, the user can select more than one (or none of them).
+
+Both radio buttons and check boxes can take an attribute called `checked`. This attribut takes no value and will cause the button or box to be checked by default when the page is loaded.
+
+To create dropdown menus we use the `<select>` tag. This tag takes a `name` attribute. Inside it we need to place `<option>`s. This will take a `value` attribute, which is the value that will be sent to the server. The content is what the user will be displayed.
+
+To add a label before the dropdown list we use the `<label>` tag. This tag takes a `for` attribute that needs to be set to the `id` attribute of the element that the label is for.
+
+![](img/select-input.png)
+
+An important input is the submit button. We create it like so: `<input type="submit" value="Submit">`. The value attribute is the label that the user will see on the button. When pressed, it will send the information to the server.
