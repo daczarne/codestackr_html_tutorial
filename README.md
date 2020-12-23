@@ -73,3 +73,21 @@ Attributes are used to provide additional information about HTML elements. They 
 For example, we can add a title to a paragraph like so: `<p title="This is a tooltip">`. Now, when the user hovers over the paragraph, a tooltip will appear on the screen displaying the message "This is a tooltip".
 
 ## img
+
+The `<img>` tag inserts an image in the document. Use the `src` attribute to specify the path to the image and the `alt` attribute sets a description of the image and is used by screen readers to improve accesibility and displayed if the image fails to load. Another attribute that we can add is `width`. This will set the width of the image.
+
+Image tags are inline elements.
+
+## Anchor
+
+Anchore tags, `<a>`, create hyperlinks to content outside or within the page. The link to which the tag should point is defined in the `href` attribute. Using `href="#"` means that it will not go anywhere (it'll stay on the current page).
+
+The content of the tag is what the user will see and should inform the user about where it'll be redirected to. When the user clicks on the hyperlink, it will open that page on the current browser tab. To change this behaviour and have the user stay on our page we use the `target` attribute. If we set it to `target="_blank"` then a new browser tab will be opened when the user clicks on it.
+
+Anchor tags are inline. They can be placed in any part of the webpage. We can even wrap them around an image and make the image a hyperlink.
+
+## id attribute
+
+We can add an `id` attribute to any tag. This creates a bookmark, a unique identifier of that particular tag. This bookmarks can be passed to the `href` attribute of an `<a>` tag like so: `<a href="#bookmark">` (note that there's no `target` attribute set). When the user clicks on this anchor, the browser will move the page to where the bookmark is.
+
+## Lists
