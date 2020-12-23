@@ -8,9 +8,17 @@
     <meta name="keywords" content="HTML">
     <meta name="author" content="Daniel Czarnievicz">
     <title>Daniel Czarnievicz</title>
+    <style>
+        .background {
+            background-color: burlywood;
+            color: coral;
+        }
+    </style>
 </head>
 
 <body>
+
+    <!-- Headings -->
     <h1>Hello World!</h1>
     <h2>Hello World!</h2>
     <h3>Hello World!</h3>
@@ -20,6 +28,7 @@
 
     <hr>
 
+    <!-- Paragraphs -->
     <div>
         <p title="This is a tooltip">This is a paragraph. <br> This is another piece of text.</p>
         <p title="This is a tooltip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsam repudiandae
@@ -27,16 +36,166 @@
             veritatis. Ad atque voluptates magnam autem non quis modi dolore sit, voluptatem blanditiis nihil
             at repellat. Architecto.</p>
         <p>Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit</strong>. Omnis ipsam repudiandae error eius
-            veritatis. Ad atque <span>voluptates magnam autem non quis modi dolore sit</span>, voluptatem blanditiis
+            veritatis. Ad atque <span style="color:blue">voluptates magnam autem non quis modi dolore sit</span>,
+            voluptatem blanditiis
             nihil
             at repellat. Architecto.</p>
-        <p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit</em>. Omnis ipsam repudiandae error eius
+        <p class="background">Lorem ipsum dolor sit amet consectetur <em>adipisicing elit</em>. Omnis ipsam repudiandae
+            error eius
             veritatis. Ad atque voluptates magnam autem non quis modi dolore sit, voluptatem blanditiis nihil
             at repellat. Architecto.</p>
     </div>
 
-    <img src="" alt="">
+    <!-- Images -->
+    <img src="img/Banner.png" alt="image description" width="400">
 
+    <br>
+
+    <a href="https:://www.google.com">Google</a>
+
+    <br>
+    <br>
+
+    <a href="https:://www.google.com">
+        <img src="img/Banner.png" alt="image description" width="400">
+    </a>
+
+    <br>
+
+    <!-- Lists -->
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ul>
+
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ol>
+
+    <br>
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Jackson</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>999-999</td>
+                <td>777-777</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>888-888</td>
+                <td>111-111</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Jill Smith</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>555-555</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <!-- Form -->
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First Name: <br>
+            <input type="text" name="firstname" value="" placeholder="First Name Here"><br>
+            Last Name: <br>
+            <input type="text" name="lastname" value=""><br><br>
+
+            <input type="radio" name="options" checked> Option 1
+            <input type="radio" name="options"> Option 2
+
+            <br><br>
+
+            <input type="checkbox" , name="checkboxes"> Checkbox 1
+            <input type="checkbox" , name="checkboxes" checked> Checkbox 2
+            <input type="checkbox" , name="checkboxes" checked> Checkbox 3
+
+            <br><br>
+
+            <label for="carsSelect">Select:</label>
+            <select name="cars" id="carsSelect" multiple>
+                <option value="BMW" selected>BMW</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Submit" id="">
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <!-- Button -->
+    <button>Click Me</button>
 
 </body>
 
