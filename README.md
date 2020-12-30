@@ -1,6 +1,5 @@
 # codeSTACKr's HTML tutorial
 
-
 Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https://www.youtube.com/watch?v=XiQ9rjaa2Ow).
 
 ![archived](https://img.shields.io/badge/lifecycle-archived-red.svg)
