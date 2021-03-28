@@ -4,11 +4,11 @@ Notes from codeSTACKr's HTML tutorial. You can watch the tutorial [here](https:/
 
 ![archived](https://img.shields.io/badge/lifecycle-archived-red.svg)
 
-![github repo size](https://img.shields.io/github/repo-size/daczarne/html_tutorial_codestackr)
-![github code size](https://img.shields.io/github/languages/code-size/daczarne/html_tutorial_codestackr)
+![github repo size](https://img.shields.io/github/repo-size/daczarne/codestackr_html_tutorial)
+![github code size](https://img.shields.io/github/languages/code-size/daczarne/codestackr_html_tutorial)
 
-![github languages](https://img.shields.io/github/languages/count/daczarne/html_tutorial_codestackr)
-![top language](https://img.shields.io/github/languages/top/daczarne/html_tutorial_codestackr)
+![github languages](https://img.shields.io/github/languages/count/daczarne/codestackr_html_tutorial)
+![top language](https://img.shields.io/github/languages/top/daczarne/codestackr_html_tutorial)
 
 
 Table of content:
